@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background: #32a2ecd7;
+}
+
+#container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+#container header {
+    background: #32a2ecd7;
+    text-align: center;
+    /* padding-top: 1rem; */
+}
+
+header img {
+    width: 250px;
+    height: 250px;
+}
+
+main {
+    background: #dcdcdc;
+    font-size: 20px;
+    padding: 1rem;
+}
+
+footer {
+    background: #32a2ecd7;
+    text-align: center;
+    padding: 15px;
+}
+
+/* NAV */
+
+nav {
+    background: #086c94e1;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    color: #dcdcdc;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    color: #dcdcdc;
+    padding: 15px;
+}
+
+/* MAIN */
+
+main > h3 {
+    color: #d84c72;
+}
+
+#produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.produto {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.produto p {
+    background: #d84c72;
+    color: whitesmoke;
+    padding: 5px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.produto img:hover {
+    transform: rotate(-5deg);
+}
+
+/* FRANQUIAS */
+
+#franquias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.franquia p {
+    background: #d84c72;
+    color: whitesmoke;
+    padding: 5px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.franquia img {
+    width: 300px;
+    height: 300px;
+}
+
+/* SOBRE NÓS */
+
+.descricao {
+    text-align: justify;
+    margin: 20px 40px;
+}
